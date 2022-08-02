@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+</head>
+    <body>
+        <div class="titl">
+            <div>
+                <div class="scoreboard-title">
+                    ScoreBoard
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <div>
+                <h3 class="header">HOME</h3>
+            </div>
+            <div>
+                <h3 class="header">GUEST</h3>
+            </div>
+        </div>
+
+        <div class="score-container">
+            <div>
+                <p class="score" id="home-score">0</p>
+            </div>
+            <div>
+                <p class="score" id="guest-score">0</p>
+            </div>
+        </div>
+
+        <div class="add-score-container">
+            <div class="add">
+                <div class="add-score">
+                    <div>
+                        <button class="count-btn" onclick="homeAdd1()">+1</button>
+                    </div>
+                    <div>
+                        <button class="count-btn" onclick="homeAdd2()">+2</button>
+                    </div>
+                    <div>
+                        <button class="count-btn" onclick="homeAdd3()">+3</button>
+                    </div>
+                </div>
+                <div class="add-score">
+                    <div>
+                        <button class="count-btn" onclick="guestAdd1()">+1</button>
+                    </div>
+                    <div>
+                        <button class="count-btn" onclick="guestAdd2()">+2</button>
+                    </div>
+                    <div>
+                        <button class="count-btn" onclick="guestAdd3()">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+            <button id="clear-btn" onclick="clearGame()">
+                clear
+            </button>
+        </div>
+        </div>
+                
+            
+                
+            
+        <script src="index.js"></script>
+    </body>
+</html>
